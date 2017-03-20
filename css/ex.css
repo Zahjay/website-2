@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Diplomata SC', cursive;
+}
+
+html{
+    background: black;
+    background: rgba(0,0,0,.2);
+    overflow: auto;
+    
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    max-width: 960px;
+    min-width: 
+}
+
+
+.banner{
+    background:;
+    height: 150px;
+    width: 100%;
+/*    margin: 5px 50px 10px 50px;*/
+    
+}
+.banner img
+{
+height:150px;
+width:100%;
+}
+
+
+nav ul li a{
+    text-decoration:none;
+    display: inline-block;
+    padding: 0px 0px 0px 40px;
+    font-size: 18px;
+    color:black;
+}
+
+nav ul{
+ text-align: center;
+ 
+ 
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav li:hover{
+    border-radius:50%;
+}
+
+nav li{
+    display: inline-block;
+    padding:20px;
+    text-align: center;
+    padding: 10px 20px 2px;
+    
+}
+
+nav{
+     width:100%;
+    margin:10px 0px;
+    background: rgba(0,255,255,.3);
+}
+
+.main{
+    width:62%;
+    min-height: 490px;
+     background: rgba(0,255,255,.3);
+    float:left;
+    color: #000;
+   font-family: cursive;
+     border-bottom-style:hidden;
+  
+
+}
+
+.main img{
+    width:100%;
+    padding: 10px 10px;
+    border-radius:10%;
+    border-bottom-color:#fff;
+    border-radius:solid;
+    border-top-color: cyan;
+    
+}
+
+aside{
+    width:36%;
+     background-color: rgba(0,255,255,.3);
+    float:left;
+      position:relative;
+     min-height:490px; 
+     padding: 4px;
+    margin-left: 2%;
+    border-collapse: separate;
+    font-family: cursive;
+    text-align: center;
+    
+/*    margin: 0 80px 0 10px;*/
+      
+}
+
+
+
+aside p{
+    font-family:cursive;
+}
+
+footer {
+    background: rgb(0,0,0,4);
+    float:none;
+    clear:both;
+    width:100%;
+    height:30px;
+    padding:5px 0px;
+    text-align: center;
+    
+}
+
+footer font{
+    font-family: cursive;
+}
+
+.control{
+  
+}
+
+.heart{
+    color: #1CD9C6;
+    
+}
+
+
+.manhattan_sky img{
+    width: 100%;
+    max-height: inherit;
+    max-height:15%;
+    opacity: .2;  
+}
+
+
+.about_nav{
+    
+  width: 100%;
+  display:block;
+  background:rgba(34,139,34,0.4);
+  margin: 2% 5% 2% 0%;
+    
+}
+
+.about li{
+    padding:3%;
+
+}
+
+about li:hover{
+    border-radius:20%;
+    text-transform: uppercase;
+}/*Try taking this out and see what happens taking away hover won't change*/
+
+.about_nav a{
+    border-style: dotted;
+    padding: 5px 7% 9% ;
+    list-style-image: inherit;
+    color: rgb(255,255,255);   
+}
+
+.about_main{
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+}
+
+
+.about_main:hover{
+    border-color: rgba(255,255,255,.1);
+}
+.manhattan_sky img{
+    border-radius: 50%;
+}
+
+footer{
+    color:#000;
+    width:100%;
+    overflow: visible;
+    animation-fill-mode: forwards;
+    opacity: .3;
+}
+
